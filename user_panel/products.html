@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/cs/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@100;300;400;600&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6bf2dfa19e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   
+   
+</head>
+<body>
+    <div class="prof">
+        <div><a href="/sub_cate.html" class="log"> <span class="material-symbols-outlined">
+            arrow_back_ios_new
+            </span></a>
+        </div>
+        <div><h2>PRODUCTS</h2></div>   
+        <div class="icons">
+          <!-- <div class="fas fa-bars" id="menu-btn"></div> -->
+          <div class="fas fa-search" id="search-bt"></div>
+          <!-- <div class="fas fa-shopping-cart" id="cart-btn"></div> -->
+          <!-- <a href="/profile.html"><div class="fas fa-user" id="login-btn"></div></a> -->
+        </div>           
+        <form action="" class="search-form">
+          <input type="search" id="search-box" placeholder="search here...">
+          <button class="btnm"><label for="search-box" class="fas fa-search"></label></button>
+        </form>          
+    </div>
+    <div class="container-fluid"> 
+      <div class="row row-cols-2 row-cols-md-2 g-4" >
+        <div class="col">
+          <a href="/prod_details.html" class="no-underline">
+            <div class="card h-100 w-100 no-border">
+              <img src="/img/cement.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Cement</h3>
+                <p class="body"><span class="bold">Price:</span>&nbsp;<span class="price">120/-</span></p>
+                  
+              </div>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col">
+          <a href="/prod_details.html" class="no-underline">
+            <div class="card h-100 w-100 no-border">
+              <img src="/img/iron.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Iron</h3>
+                <p class="body"><span class="bold">Price:</span>&nbsp;<span class="price">120/-</span></p>
+                         
+              </div>
+            </div>
+          </a> 
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-md-2 g-4">
+        <div class="col">
+          <a href="/prod_details.html" class="no-underline">
+            <div class="card h-100 w-100 no-border">
+              <img src="/img/cement.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Cement</h3>
+                <p class="body"><span class="bold">Price:</span>&nbsp;<span class="price">120/-</span></p>
+                  
+              </div>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col">
+          <a href="/prod_details.html" class="no-underline">
+            <div class="card h-100 w-100 no-border">
+              <img src="/img/iron.jpg" class="card-img-top img-thumbnail" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Iron</h3>
+                <p class="body"><span class="bold">Price:</span>&nbsp;<span class="price">120/-</span></p>
+                         
+              </div>
+            </div>
+          </a> 
+        </div>
+      </div>
+    </div>
+    <!-- footer section start  -->
+    <footer class="footer">
+      <div>
+        <a href="/home.html"><span class="material-symbols-outlined">
+          home
+          </span></a>
+      <!-- <div class="">home</div></a> -->
+      </div>
+      <div>
+        <a href="/rewards.html">
+          <span class="material-symbols-outlined">
+            social_leaderboard
+            </span></a>
+          <!-- <div class="rewards">rewards</div></a> -->
+      </div>
+      <div class="scan-icon">
+        <a href="#">
+          <span class="material-symbols-outlined" id="scanner">
+          qr_code_scanner
+          </span></a>
+          <!-- <div class="scanner">scanner</div></a> -->
+      </div>
+      <div>
+        <a href="/referral.html">
+          <span class="material-symbols-outlined">
+            groups
+            </span></a>
+          <!-- <div class="referral">referral</div></a> -->
+      </div>
+      <div>
+        <a href="/enquiry.html">
+          <span class="material-symbols-outlined">
+            chat
+          </span></a>
+          <!-- <div class="enquiry">enquiry</div> -->
+      </div>
+    </footer>
+
+
+
+    <script>
+      let searchForm = document.querySelector('.search-form');
+      document.querySelector('#search-bt').onclick =()=>{
+      searchForm.classList.toggle('active');
+    
+    // loginForm.classList.remove('active');
+       }
+    </script>
+    
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>  

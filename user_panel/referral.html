@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/cs/referral.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@100;300;400;600&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6bf2dfa19e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="prof">
+        <div><a href="/home.html" class="log"> <span class="material-symbols-outlined">
+            arrow_back_ios_new
+            </span></a>
+        </div>
+        <div><h2>REFERRAL</h2></div>  
+        <div class="icons">
+          <!-- <div class="fas fa-bars" id="menu-btn"></div> -->
+          <div class="fas fa-search" id="search-bt"></div>
+          <!-- <div class="fas fa-shopping-cart" id="cart-btn"></div> -->
+          <!-- <a href="/profile.html"><div class="fas fa-user" id="login-btn"></div></a> -->
+        </div>           
+        <form action="" class="search-form">
+          <input type="search" id="search-box" placeholder="search here...">
+          <button class="btnm"><label for="search-box" class="fas fa-search" ></label></button>
+        </form>             
+    </div><br>
+    <!-- <h1>VIEW REFERRAL</h1><br> -->
+    
+    
+    <table class="table">
+        <thead>
+            <tr>
+             <th>Referral Code</th>
+             <th>Referral User's Name</th>
+             <th>Product Purchased</th>
+             <th>Product Price</th>
+             <th>Commission Amount</th>
+             <th>Transaction Status</th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                    <td data-label="Referral Code">AD45AS</td>
+                    <td data-label="Referral User's Name">Nihal_001</td>
+                    <td data-label="Product Purchased">Cement</td>
+                    <td data-label="Product Price">500 ₹</td>
+                    <td data-label="Commission Amount">150 ₹</td>
+                    <td data-label="Transaction Status"> Pending</td>
+              </tr>
+   
+              <tr>
+                <td data-label="Referral Code">BSW45AS</td>
+                <td data-label="Referral User's Name">Gauri_411</td>
+                <td data-label="Product Purchased">Paint</td>
+                <td data-label="Product Price">800 ₹</td>
+                <td data-label="Commission Amount">250 ₹</td>
+                <td data-label="Transaction Status"> Paid</td>
+                    
+              </tr>
+        </tbody>
+    </table><br><br><br><br><br>
+    <!-- footer section start  -->
+    <footer class="footer">
+        <div>
+          <a href="/home.html"><span class="material-symbols-outlined">
+            home
+            </span></a>
+        <!-- <div class="">home</div></a> -->
+        </div>
+        <div>
+          <a href="/rewards.html">
+            <span class="material-symbols-outlined">
+              social_leaderboard
+              </span></a>
+            <!-- <div class="rewards">rewards</div></a> -->
+        </div>
+        <div class="scan-icon">
+          <a href="#">
+            <span class="material-symbols-outlined" id="scanner">
+            qr_code_scanner
+            </span></a>
+            <!-- <div class="scanner">scanner</div></a> -->
+        </div>
+        <div>
+          <a href="/referral.html">
+            <span class="material-symbols-outlined">
+              groups
+              </span></a>
+            <!-- <div class="referral">referral</div></a> -->
+        </div>
+        <div>
+          <a href="/enquiry.html">
+            <span class="material-symbols-outlined">
+              chat
+            </span></a>
+            <!-- <div class="enquiry">enquiry</div> -->
+        </div>
+    </footer>
+
+    <!-- js file  -->
+    <script>
+      let searchForm = document.querySelector('.search-form');
+      document.querySelector('#search-bt').onclick =()=>{
+      searchForm.classList.toggle('active');
+    
+    // loginForm.classList.remove('active');
+       }
+    </script>
+
+
+
+</body>
+</html>
